@@ -1,0 +1,1119 @@
+{
+    "name": "smk-bc-games",
+    "viewer": {
+        "type": "leaflet",
+        "location": {
+            "extent": [
+                -140.80078125000003,
+                61.62728646147466,
+                -108.72070312500001,
+                46.13417004624326
+            ],
+            "center": [
+                -128,
+                54.5
+            ],
+            "zoom": 5.75
+        },
+        "baseMap": "Topographic"
+    },
+    "layers": [
+        {
+            "type": "vector",
+            "id": "zone1",
+            "title": "Zone 1",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "name",
+                    "name": "name",
+                    "title": "name",
+                    "visible": true
+                },
+                {
+                    "id": "description",
+                    "name": "description",
+                    "title": "description",
+                    "visible": true
+                },
+                {
+                    "id": "label-opacity",
+                    "name": "label-opacity",
+                    "title": "label-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "label-color",
+                    "name": "label-color",
+                    "title": "label-color",
+                    "visible": true
+                },
+                {
+                    "id": "label-scale",
+                    "name": "label-scale",
+                    "title": "label-scale",
+                    "visible": true
+                },
+                {
+                    "id": "stroke-opacity",
+                    "name": "stroke-opacity",
+                    "title": "stroke-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "stroke",
+                    "name": "stroke",
+                    "title": "stroke",
+                    "visible": true
+                },
+                {
+                    "id": "stroke-width",
+                    "name": "stroke-width",
+                    "title": "stroke-width",
+                    "visible": true
+                },
+                {
+                    "id": "fill-opacity",
+                    "name": "fill-opacity",
+                    "title": "fill-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "fill",
+                    "name": "fill",
+                    "title": "fill",
+                    "visible": true
+                },
+                {
+                    "id": "zone-number",
+                    "name": "Zone_Number",
+                    "title": "Zone_Number",
+                    "visible": true
+                },
+                {
+                    "id": "zone-name",
+                    "name": "Zone_Name",
+                    "title": "Zone_Name",
+                    "visible": true
+                },
+                {
+                    "id": "name-color",
+                    "name": "Name_Color",
+                    "title": "Name_Color",
+                    "visible": true
+                },
+                {
+                    "id": "zone-url",
+                    "name": "Zone_Url",
+                    "title": "Zone_Url",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "useClustering": false,
+            "dataUrl": "./layers/zone1.geojson",
+            "legend": {
+                "line": true
+            },
+            "style": {
+                "strokeColor": "#ffff00",
+                "strokeOpacity": 1,
+                "strokeWidth": 3,
+                "strokeCap": "round",
+                "strokeJoin": "round",
+                "fill": true,
+                "fillColor": "#ffff00",
+                "fillOpacity": 0.5,
+                "stroke": false
+            }
+        },
+        {
+            "type": "vector",
+            "id": "zone2",
+            "title": "Zone 2",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "name",
+                    "name": "name",
+                    "title": "name",
+                    "visible": true
+                },
+                {
+                    "id": "description",
+                    "name": "description",
+                    "title": "description",
+                    "visible": true
+                },
+                {
+                    "id": "label-opacity",
+                    "name": "label-opacity",
+                    "title": "label-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "label-color",
+                    "name": "label-color",
+                    "title": "label-color",
+                    "visible": true
+                },
+                {
+                    "id": "label-scale",
+                    "name": "label-scale",
+                    "title": "label-scale",
+                    "visible": true
+                },
+                {
+                    "id": "stroke-opacity",
+                    "name": "stroke-opacity",
+                    "title": "stroke-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "stroke",
+                    "name": "stroke",
+                    "title": "stroke",
+                    "visible": true
+                },
+                {
+                    "id": "stroke-width",
+                    "name": "stroke-width",
+                    "title": "stroke-width",
+                    "visible": true
+                },
+                {
+                    "id": "fill-opacity",
+                    "name": "fill-opacity",
+                    "title": "fill-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "fill",
+                    "name": "fill",
+                    "title": "fill",
+                    "visible": true
+                },
+                {
+                    "id": "zone-number",
+                    "name": "Zone_Number",
+                    "title": "Zone_Number",
+                    "visible": true
+                },
+                {
+                    "id": "zone-name",
+                    "name": "Zone_Name",
+                    "title": "Zone_Name",
+                    "visible": true
+                },
+                {
+                    "id": "name-color",
+                    "name": "Name_Color",
+                    "title": "Name_Color",
+                    "visible": true
+                },
+                {
+                    "id": "zone-url",
+                    "name": "Zone_Url",
+                    "title": "Zone_Url",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "useClustering": false,
+            "dataUrl": "./layers/zone2.geojson",
+            "legend": {
+                "line": true
+            },
+            "style": {
+                "strokeColor": "#ff0000",
+                "strokeOpacity": 1,
+                "strokeWidth": 3,
+                "strokeCap": "round",
+                "strokeJoin": "round",
+                "fill": true,
+                "fillColor": "#ff0000",
+                "fillOpacity": 0.5,
+                "stroke": false
+            }
+        },
+        {
+            "type": "vector",
+            "id": "zone3",
+            "title": "Zone 3",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "name",
+                    "name": "name",
+                    "title": "name",
+                    "visible": true
+                },
+                {
+                    "id": "description",
+                    "name": "description",
+                    "title": "description",
+                    "visible": true
+                },
+                {
+                    "id": "label-opacity",
+                    "name": "label-opacity",
+                    "title": "label-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "label-color",
+                    "name": "label-color",
+                    "title": "label-color",
+                    "visible": true
+                },
+                {
+                    "id": "label-scale",
+                    "name": "label-scale",
+                    "title": "label-scale",
+                    "visible": true
+                },
+                {
+                    "id": "stroke-opacity",
+                    "name": "stroke-opacity",
+                    "title": "stroke-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "stroke",
+                    "name": "stroke",
+                    "title": "stroke",
+                    "visible": true
+                },
+                {
+                    "id": "stroke-width",
+                    "name": "stroke-width",
+                    "title": "stroke-width",
+                    "visible": true
+                },
+                {
+                    "id": "fill-opacity",
+                    "name": "fill-opacity",
+                    "title": "fill-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "fill",
+                    "name": "fill",
+                    "title": "fill",
+                    "visible": true
+                },
+                {
+                    "id": "zone-number",
+                    "name": "Zone_Number",
+                    "title": "Zone_Number",
+                    "visible": true
+                },
+                {
+                    "id": "zone-name",
+                    "name": "Zone_Name",
+                    "title": "Zone_Name",
+                    "visible": true
+                },
+                {
+                    "id": "name-color",
+                    "name": "Name_Color",
+                    "title": "Name_Color",
+                    "visible": true
+                },
+                {
+                    "id": "zone-url",
+                    "name": "Zone_Url",
+                    "title": "Zone_Url",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "useClustering": false,
+            "dataUrl": "./layers/zone3.geojson",
+            "legend": {
+                "line": true
+            },
+            "style": {
+                "strokeColor": "#95cbed",
+                "strokeOpacity": 1,
+                "strokeWidth": 3,
+                "strokeCap": "round",
+                "strokeJoin": "round",
+                "fill": true,
+                "fillColor": "#95cbed",
+                "fillOpacity": 0.5,
+                "stroke": false
+            }
+        },
+        {
+            "type": "vector",
+            "id": "zone4",
+            "title": "Zone 4",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "name",
+                    "name": "name",
+                    "title": "name",
+                    "visible": true
+                },
+                {
+                    "id": "description",
+                    "name": "description",
+                    "title": "description",
+                    "visible": true
+                },
+                {
+                    "id": "label-opacity",
+                    "name": "label-opacity",
+                    "title": "label-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "label-color",
+                    "name": "label-color",
+                    "title": "label-color",
+                    "visible": true
+                },
+                {
+                    "id": "label-scale",
+                    "name": "label-scale",
+                    "title": "label-scale",
+                    "visible": true
+                },
+                {
+                    "id": "stroke-opacity",
+                    "name": "stroke-opacity",
+                    "title": "stroke-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "stroke",
+                    "name": "stroke",
+                    "title": "stroke",
+                    "visible": true
+                },
+                {
+                    "id": "stroke-width",
+                    "name": "stroke-width",
+                    "title": "stroke-width",
+                    "visible": true
+                },
+                {
+                    "id": "fill-opacity",
+                    "name": "fill-opacity",
+                    "title": "fill-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "fill",
+                    "name": "fill",
+                    "title": "fill",
+                    "visible": true
+                },
+                {
+                    "id": "zone-number",
+                    "name": "Zone_Number",
+                    "title": "Zone_Number",
+                    "visible": true
+                },
+                {
+                    "id": "zone-name",
+                    "name": "Zone_Name",
+                    "title": "Zone_Name",
+                    "visible": true
+                },
+                {
+                    "id": "name-color",
+                    "name": "Name_Color",
+                    "title": "Name_Color",
+                    "visible": true
+                },
+                {
+                    "id": "zone-url",
+                    "name": "Zone_Url",
+                    "title": "Zone_Url",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "useClustering": false,
+            "dataUrl": "./layers/zone4.geojson",
+            "legend": {
+                "line": true
+            },
+            "style": {
+                "strokeColor": "#f58836",
+                "strokeOpacity": 1,
+                "strokeWidth": 3,
+                "strokeCap": "round",
+                "strokeJoin": "round",
+                "fill": true,
+                "fillColor": "#f58836",
+                "fillOpacity": 0.5,
+                "stroke": false
+            }
+        },
+        {
+            "type": "vector",
+            "id": "zone5",
+            "title": "Zone 5",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "name",
+                    "name": "name",
+                    "title": "name",
+                    "visible": true
+                },
+                {
+                    "id": "description",
+                    "name": "description",
+                    "title": "description",
+                    "visible": true
+                },
+                {
+                    "id": "label-opacity",
+                    "name": "label-opacity",
+                    "title": "label-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "label-color",
+                    "name": "label-color",
+                    "title": "label-color",
+                    "visible": true
+                },
+                {
+                    "id": "label-scale",
+                    "name": "label-scale",
+                    "title": "label-scale",
+                    "visible": true
+                },
+                {
+                    "id": "stroke-opacity",
+                    "name": "stroke-opacity",
+                    "title": "stroke-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "stroke",
+                    "name": "stroke",
+                    "title": "stroke",
+                    "visible": true
+                },
+                {
+                    "id": "stroke-width",
+                    "name": "stroke-width",
+                    "title": "stroke-width",
+                    "visible": true
+                },
+                {
+                    "id": "fill-opacity",
+                    "name": "fill-opacity",
+                    "title": "fill-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "fill",
+                    "name": "fill",
+                    "title": "fill",
+                    "visible": true
+                },
+                {
+                    "id": "zone-number",
+                    "name": "Zone_Number",
+                    "title": "Zone_Number",
+                    "visible": true
+                },
+                {
+                    "id": "zone-name",
+                    "name": "Zone_Name",
+                    "title": "Zone_Name",
+                    "visible": true
+                },
+                {
+                    "id": "name-color",
+                    "name": "Name_Color",
+                    "title": "Name_Color",
+                    "visible": true
+                },
+                {
+                    "id": "zone-url",
+                    "name": "Zone_Url",
+                    "title": "Zone_Url",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "useClustering": false,
+            "dataUrl": "./layers/zone5.geojson",
+            "legend": {
+                "line": true
+            },
+            "style": {
+                "strokeColor": "#004712",
+                "strokeOpacity": 1,
+                "strokeWidth": 3,
+                "strokeCap": "round",
+                "strokeJoin": "round",
+                "fill": true,
+                "fillColor": "#004712",
+                "fillOpacity": 0.5,
+                "stroke": false
+            }
+        },
+        {
+            "type": "vector",
+            "id": "zone6",
+            "title": "Zone 6",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "name",
+                    "name": "name",
+                    "title": "name",
+                    "visible": true
+                },
+                {
+                    "id": "description",
+                    "name": "description",
+                    "title": "description",
+                    "visible": true
+                },
+                {
+                    "id": "label-opacity",
+                    "name": "label-opacity",
+                    "title": "label-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "label-color",
+                    "name": "label-color",
+                    "title": "label-color",
+                    "visible": true
+                },
+                {
+                    "id": "label-scale",
+                    "name": "label-scale",
+                    "title": "label-scale",
+                    "visible": true
+                },
+                {
+                    "id": "stroke-opacity",
+                    "name": "stroke-opacity",
+                    "title": "stroke-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "stroke",
+                    "name": "stroke",
+                    "title": "stroke",
+                    "visible": true
+                },
+                {
+                    "id": "stroke-width",
+                    "name": "stroke-width",
+                    "title": "stroke-width",
+                    "visible": true
+                },
+                {
+                    "id": "fill-opacity",
+                    "name": "fill-opacity",
+                    "title": "fill-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "fill",
+                    "name": "fill",
+                    "title": "fill",
+                    "visible": true
+                },
+                {
+                    "id": "zone-number",
+                    "name": "Zone_Number",
+                    "title": "Zone_Number",
+                    "visible": true
+                },
+                {
+                    "id": "zone-name",
+                    "name": "Zone_Name",
+                    "title": "Zone_Name",
+                    "visible": true
+                },
+                {
+                    "id": "name-color",
+                    "name": "Name_Color",
+                    "title": "Name_Color",
+                    "visible": true
+                },
+                {
+                    "id": "zone-url",
+                    "name": "Zone_Url",
+                    "title": "Zone_Url",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "useClustering": false,
+            "dataUrl": "./layers/zone6.geojson",
+            "legend": {
+                "line": true
+            },
+            "style": {
+                "strokeColor": "#96ca4e",
+                "strokeOpacity": 1,
+                "strokeWidth": 3,
+                "strokeCap": "round",
+                "strokeJoin": "round",
+                "fill": true,
+                "fillColor": "#96ca4e",
+                "fillOpacity": 0.5,
+                "stroke": false
+            }
+        },
+        {
+            "type": "vector",
+            "id": "zone7",
+            "title": "Zone 7",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "name",
+                    "name": "name",
+                    "title": "name",
+                    "visible": true
+                },
+                {
+                    "id": "description",
+                    "name": "description",
+                    "title": "description",
+                    "visible": true
+                },
+                {
+                    "id": "label-opacity",
+                    "name": "label-opacity",
+                    "title": "label-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "label-color",
+                    "name": "label-color",
+                    "title": "label-color",
+                    "visible": true
+                },
+                {
+                    "id": "label-scale",
+                    "name": "label-scale",
+                    "title": "label-scale",
+                    "visible": true
+                },
+                {
+                    "id": "stroke-opacity",
+                    "name": "stroke-opacity",
+                    "title": "stroke-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "stroke",
+                    "name": "stroke",
+                    "title": "stroke",
+                    "visible": true
+                },
+                {
+                    "id": "stroke-width",
+                    "name": "stroke-width",
+                    "title": "stroke-width",
+                    "visible": true
+                },
+                {
+                    "id": "fill-opacity",
+                    "name": "fill-opacity",
+                    "title": "fill-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "fill",
+                    "name": "fill",
+                    "title": "fill",
+                    "visible": true
+                },
+                {
+                    "id": "zone-number",
+                    "name": "Zone_Number",
+                    "title": "Zone_Number",
+                    "visible": true
+                },
+                {
+                    "id": "zone-name",
+                    "name": "Zone_Name",
+                    "title": "Zone_Name",
+                    "visible": true
+                },
+                {
+                    "id": "name-color",
+                    "name": "Name_Color",
+                    "title": "Name_Color",
+                    "visible": true
+                },
+                {
+                    "id": "zone-url",
+                    "name": "Zone_Url",
+                    "title": "Zone_Url",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "useClustering": false,
+            "dataUrl": "./layers/zone7.geojson",
+            "legend": {
+                "line": true
+            },
+            "style": {
+                "strokeColor": "#7c2b83",
+                "strokeOpacity": 1,
+                "strokeWidth": 3,
+                "strokeCap": "round",
+                "strokeJoin": "round",
+                "fill": true,
+                "fillColor": "#7c2b83",
+                "fillOpacity": 0.5,
+                "stroke": false
+            }
+        },
+        {
+            "type": "vector",
+            "id": "zone8",
+            "title": "Zone 8",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "name",
+                    "name": "name",
+                    "title": "name",
+                    "visible": true
+                },
+                {
+                    "id": "description",
+                    "name": "description",
+                    "title": "description",
+                    "visible": true
+                },
+                {
+                    "id": "label-opacity",
+                    "name": "label-opacity",
+                    "title": "label-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "label-color",
+                    "name": "label-color",
+                    "title": "label-color",
+                    "visible": true
+                },
+                {
+                    "id": "label-scale",
+                    "name": "label-scale",
+                    "title": "label-scale",
+                    "visible": true
+                },
+                {
+                    "id": "stroke-opacity",
+                    "name": "stroke-opacity",
+                    "title": "stroke-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "stroke",
+                    "name": "stroke",
+                    "title": "stroke",
+                    "visible": true
+                },
+                {
+                    "id": "stroke-width",
+                    "name": "stroke-width",
+                    "title": "stroke-width",
+                    "visible": true
+                },
+                {
+                    "id": "fill-opacity",
+                    "name": "fill-opacity",
+                    "title": "fill-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "fill",
+                    "name": "fill",
+                    "title": "fill",
+                    "visible": true
+                },
+                {
+                    "id": "zone-number",
+                    "name": "Zone_Number",
+                    "title": "Zone_Number",
+                    "visible": true
+                },
+                {
+                    "id": "zone-name",
+                    "name": "Zone_Name",
+                    "title": "Zone_Name",
+                    "visible": true
+                },
+                {
+                    "id": "name-color",
+                    "name": "Name_Color",
+                    "title": "Name_Color",
+                    "visible": true
+                },
+                {
+                    "id": "zone-url",
+                    "name": "Zone_Url",
+                    "title": "Zone_Url",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "useClustering": false,
+            "dataUrl": "./layers/zone8.geojson",
+            "legend": {
+                "line": true
+            },
+            "style": {
+                "strokeColor": "#1c3f94",
+                "strokeOpacity": 1,
+                "strokeWidth": 3,
+                "strokeCap": "round",
+                "strokeJoin": "round",
+                "fill": true,
+                "fillColor": "#1c3f94",
+                "fillOpacity": 0.5,
+                "stroke": false
+            }
+        },
+        {
+            "type": "vector",
+            "id": "labels",
+            "title": "Labels",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": "name",
+            "attributes": [
+                {
+                    "id": "name",
+                    "name": "name",
+                    "title": "name",
+                    "visible": true
+                },
+                {
+                    "id": "description",
+                    "name": "description",
+                    "title": "description",
+                    "visible": true
+                },
+                {
+                    "id": "icon-scale",
+                    "name": "icon-scale",
+                    "title": "icon-scale",
+                    "visible": true
+                },
+                {
+                    "id": "icon",
+                    "name": "icon",
+                    "title": "icon",
+                    "visible": true
+                },
+                {
+                    "id": "label-opacity",
+                    "name": "label-opacity",
+                    "title": "label-opacity",
+                    "visible": true
+                },
+                {
+                    "id": "label-color",
+                    "name": "label-color",
+                    "title": "label-color",
+                    "visible": true
+                },
+                {
+                    "id": "label-scale",
+                    "name": "label-scale",
+                    "title": "label-scale",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "useClustering": false,
+            "dataUrl": "./layers/labels.geojson",
+            "legend": {
+                "line": true
+            },
+            "style": {
+                "strokeColor": "#3388ff",
+                "strokeOpacity": 1,
+                "strokeWidth": 3,
+                "strokeCap": "round",
+                "strokeJoin": "round",
+                "fill": false,
+                "fillColor": "#3388ff",
+                "fillOpacity": 0.2,
+                "stroke": false,
+                "marker": true
+            }
+        }
+    ],
+    "tools": [
+        {
+            "type": "toolbar",
+            "enabled": true
+        },
+        {
+            "order": 1,
+            "icon": "menu",
+            "position": "toolbar",
+            "type": "list-menu",
+            "enabled": false,
+            "title": "BC Games Zone Map"
+        },
+        {
+            "type": "pan",
+            "enabled": true
+        },
+        {
+            "type": "zoom",
+            "enabled": true
+        },
+        {
+            "order": 1,
+            "position": "toolbar",
+            "icon": "help",
+            "title": "About",
+            "content": "<p><span style=\"color: rgb(68, 68, 68); font-family: MyriadPro-Regular, Arial, Tahoma, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);\">In order to ensure that the BC Summer and BC Winter Games include participants from every part of the Province, as well as to help support each Provincial Sport Organization's work to spread their efforts and interest throughout the Province, the Province has been divided into eight Zones for participation in the Games.&nbsp; The boundaries of the three lower mainland zones were redrawn in 2015 to reflect the the change in population.</span></p>",
+            "type": "about",
+            "enabled": true
+        },
+        {
+            "type": "layers",
+            "enabled": false
+        },
+        {
+            "type": "baseMaps",
+            "enabled": false
+        },
+        {
+            "order": 5,
+            "position": "toolbar",
+            "icon": "info_outline",
+            "title": "Identify Features",
+            "command": {
+                "select": true,
+                "radius": false,
+                "radiusUnit": false,
+                "nearBy": true
+            },
+            "radius": 5,
+            "radiusUnit": "px",
+            "type": "identify",
+            "enabled": true,
+            "showPanel": true,
+            "showWidget": true,
+            "style": {
+                "strokeWidth": 1,
+                "strokeStyle": "1, 1",
+                "strokeColor": "#000000",
+                "strokeOpacity": 0.8,
+                "fillColor": "#000000",
+                "fillOpacity": 0.5,
+                "markerSize": [
+                    20,
+                    20
+                ],
+                "markerOffset": [
+                    10,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "search",
+            "enabled": false
+        },
+        {
+            "type": "coordinate",
+            "enabled": false
+        },
+        {
+            "type": "measure",
+            "enabled": false
+        },
+        {
+            "type": "markup",
+            "enabled": false
+        },
+        {
+            "type": "scale",
+            "enabled": false
+        },
+        {
+            "type": "minimap",
+            "enabled": false
+        },
+        {
+            "type": "directions",
+            "enabled": false
+        },
+        {
+            "type": "location",
+            "enabled": false
+        },
+        {
+            "type": "select",
+            "enabled": false
+        }
+    ],
+    "version": "1.0.6",
+    "createdBy": "Map Team",
+    "createdDate": "2021-10-19T22:09:57.764Z"
+}
