@@ -15,7 +15,7 @@
             ],
             "zoom": 5.75
         },
-        "baseMap": "Topographic"
+        "baseMap": "Streets"
     },
     "layers": [
         {
@@ -121,14 +121,14 @@
                 "line": true
             },
             "style": {
-                "strokeColor": "#ffff00",
+                "strokeColor": "#F4DC00",
                 "strokeOpacity": 1,
                 "strokeWidth": 3,
                 "strokeCap": "round",
                 "strokeJoin": "round",
                 "fill": true,
-                "fillColor": "#ffff00",
-                "fillOpacity": 0.5,
+                "fillColor": "#F4DC00",
+                "fillOpacity": 0.70,
                 "stroke": false
             }
         },
@@ -235,14 +235,14 @@
                 "line": true
             },
             "style": {
-                "strokeColor": "#ff0000",
+                "strokeColor": "#EE3124",
                 "strokeOpacity": 1,
                 "strokeWidth": 3,
                 "strokeCap": "round",
                 "strokeJoin": "round",
                 "fill": true,
-                "fillColor": "#ff0000",
-                "fillOpacity": 0.5,
+                "fillColor": "#EE3124",
+                "fillOpacity": 0.70,
                 "stroke": false
             }
         },
@@ -349,14 +349,14 @@
                 "line": true
             },
             "style": {
-                "strokeColor": "#95cbed",
+                "strokeColor": "#79BDE8",
                 "strokeOpacity": 1,
                 "strokeWidth": 3,
                 "strokeCap": "round",
                 "strokeJoin": "round",
                 "fill": true,
-                "fillColor": "#95cbed",
-                "fillOpacity": 0.5,
+                "fillColor": "#79BDE8",
+                "fillOpacity": 0.70,
                 "stroke": false
             }
         },
@@ -463,14 +463,14 @@
                 "line": true
             },
             "style": {
-                "strokeColor": "#f58836",
+                "strokeColor": "#F47B20",
                 "strokeOpacity": 1,
                 "strokeWidth": 3,
                 "strokeCap": "round",
                 "strokeJoin": "round",
                 "fill": true,
-                "fillColor": "#f58836",
-                "fillOpacity": 0.5,
+                "fillColor": "#F47B20",
+                "fillOpacity": 0.70,
                 "stroke": false
             }
         },
@@ -584,7 +584,7 @@
                 "strokeJoin": "round",
                 "fill": true,
                 "fillColor": "#004712",
-                "fillOpacity": 0.5,
+                "fillOpacity": 0.70,
                 "stroke": false
             }
         },
@@ -691,14 +691,14 @@
                 "line": true
             },
             "style": {
-                "strokeColor": "#96ca4e",
+                "strokeColor": "#75C044",
                 "strokeOpacity": 1,
                 "strokeWidth": 3,
                 "strokeCap": "round",
                 "strokeJoin": "round",
                 "fill": true,
-                "fillColor": "#96ca4e",
-                "fillOpacity": 0.5,
+                "fillColor": "#75C044",
+                "fillOpacity": 0.70,
                 "stroke": false
             }
         },
@@ -805,14 +805,14 @@
                 "line": true
             },
             "style": {
-                "strokeColor": "#7c2b83",
+                "strokeColor": "#7C2B83",
                 "strokeOpacity": 1,
                 "strokeWidth": 3,
                 "strokeCap": "round",
                 "strokeJoin": "round",
                 "fill": true,
-                "fillColor": "#7c2b83",
-                "fillOpacity": 0.5,
+                "fillColor": "#7C2B83",
+                "fillOpacity": 0.70,
                 "stroke": false
             }
         },
@@ -919,14 +919,14 @@
                 "line": true
             },
             "style": {
-                "strokeColor": "#1c3f94",
+                "strokeColor": "#1C3F94",
                 "strokeOpacity": 1,
                 "strokeWidth": 3,
                 "strokeCap": "round",
                 "strokeJoin": "round",
                 "fill": true,
-                "fillColor": "#1c3f94",
-                "fillOpacity": 0.5,
+                "fillColor": "#1C3F94",
+                "fillOpacity": 0.70,
                 "stroke": false
             }
         },
@@ -1030,7 +1030,7 @@
             "position": "toolbar",
             "icon": "help",
             "title": "About",
-            "content": "<p><span style=\"color: rgb(68, 68, 68); font-family: MyriadPro-Regular, Arial, Tahoma, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);\">In order to ensure that the BC Summer and BC Winter Games include participants from every part of the Province, as well as to help support each Provincial Sport Organization's work to spread their efforts and interest throughout the Province, the Province has been divided into eight Zones for participation in the Games.&nbsp; The boundaries of the three lower mainland zones were redrawn in 2015 to reflect the the change in population.</span></p>",
+            "content": "<p><span style=\"color: rgb(68, 68, 68); font-family: MyriadPro-Regular, Arial, Tahoma, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);\">In order to ensure that the BC Winter and BC Summer Games include participants from every part of the Province, as well as to help support each Provincial Sport Organization's work to spread their efforts and interest throughout the Province, the Province has been divided into eight Zones for participation in the Games.&nbsp; The boundaries of the three lower mainland zones were redrawn in 2015 to reflect the change in population.</span></p>",
             "type": "about",
             "enabled": true
         },
@@ -1048,23 +1048,23 @@
             "icon": "info_outline",
             "title": "Identify Features",
             "command": {
-                "select": true,
+                "select": false,
                 "radius": false,
                 "radiusUnit": false,
-                "nearBy": true
+                "nearBy": false
             },
             "radius": 5,
             "radiusUnit": "px",
             "type": "identify",
             "enabled": true,
             "showPanel": true,
-            "showWidget": true,
+            "showWidget": false,
             "style": {
                 "strokeWidth": 1,
                 "strokeStyle": "1, 1",
-                "strokeColor": "#000000",
+                "strokeColor": "#00FF00",
                 "strokeOpacity": 0.8,
-                "fillColor": "#000000",
+                "fillColor": "#FF0000",
                 "fillOpacity": 0.5,
                 "markerSize": [
                     20,
@@ -1077,8 +1077,19 @@
             }
         },
         {
+            "order": 2,
+            "position": "toolbar",
+            "icon": "search",
+            "title": "Search for Location",
+            "showPanel": true,
+            "showLocation": true,
+            "command": {
+                "identify": true,
+                "measure": true,
+                "directions": true
+            },
             "type": "search",
-            "enabled": false
+            "enabled": true
         },
         {
             "type": "coordinate",
@@ -1105,6 +1116,7 @@
             "enabled": false
         },
         {
+            "showHeader": false,
             "type": "location",
             "enabled": false
         },
