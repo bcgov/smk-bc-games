@@ -1168,7 +1168,7 @@
 		},
 		"properties": {
 			"name": "Vancouver-Coastal (Zone 5)",
-			"description": "\n\t\t\t\t<b>Vancouver-Coastal (Zone 5)</b><br/>\n\t\t\t\t<a href=\"http://www.bcgames.org/Games/Zones/Zone5.aspx\" target=\"_blank\">More information</a>\n\t\t\t",
+			"description": "\n\t\t\t\t<b>Vancouver-Coastal (Zone 5)</b><br/>\n\t\t\t\t<a href=\"https://staging.bcgames.org/games/zones/vancouver-coastal-zone-5/\" target=\"_blank\">More information</a>\n\t\t\t",
 			"label-opacity": 0,
 			"label-color": "#000000",
 			"label-scale": 0,
@@ -1180,7 +1180,7 @@
 			"Zone_Number": "5",
 			"Zone_Name": "Vancouver-Coastal",
 			"Zone_Color": "Dark Green",
-			"Zone_Url": "http://www.bcgames.org/Games/Zones/Zone5.aspx"
+			"Zone_Url": "https://staging.bcgames.org/games/zones/vancouver-coastal-zone-5/"
 		},
 		"id": "ID_00005"
 	}]

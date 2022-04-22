@@ -432,7 +432,7 @@
 		},
 		"properties": {
 			"name": "Thompson-Okanagan (Zone 2)",
-			"description": "\n\t\t\t\t<b>Thompson-Okanagan (Zone 2)</b><br/>\n\t\t\t\t<a href=\"http://www.bcgames.org/Games/Zones/Zone2.aspx\" target=\"_blank\">More information</a>\n\t\t\t",
+			"description": "\n\t\t\t\t<b>Thompson-Okanagan (Zone 2)</b><br/>\n\t\t\t\t<a href=\"https://staging.bcgames.org/games/zones/thompson-okanagan-zone-2/\" target=\"_blank\">More information</a>\n\t\t\t",
 			"label-opacity": 0,
 			"label-color": "#000000",
 			"label-scale": 0,
@@ -444,7 +444,7 @@
 			"Zone_Number": "2",
 			"Zone_Name": "Thompson-Okanagan",
 			"Zone_Color": "Red",
-			"Zone_Url": "http://www.bcgames.org/Games/Zones/Zone2.aspx"
+			"Zone_Url": "https://staging.bcgames.org/games/zones/thompson-okanagan-zone-2/"
 		},
 		"id": "ID_00002"
 	}]
