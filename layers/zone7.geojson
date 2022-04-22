@@ -957,7 +957,7 @@
 		},
 		"properties": {
 			"name": "North West (Zone 7)",
-			"description": "\n\t\t\t\t<b>North West (Zone 7)</b><br/>\n\t\t\t\t<a href=\"http://www.bcgames.org/Games/Zones/Zone7.aspx\" target=\"_blank\">More information</a>\n\t\t\t",
+			"description": "\n\t\t\t\t<b>North West (Zone 7)</b><br/>\n\t\t\t\t<a href=\"https://staging.bcgames.org/games/zones/north-west-zone-7/\" target=\"_blank\">More information</a>\n\t\t\t",
 			"label-opacity": 0,
 			"label-color": "#000000",
 			"label-scale": 0,
@@ -969,7 +969,7 @@
 			"Zone_Number": "7",
 			"Zone_Name": "North West",
 			"Zone_Color": "Purple",
-			"Zone_Url": "http://www.bcgames.org/Games/Zones/Zone7.aspx"
+			"Zone_Url": "https://staging.bcgames.org/games/zones/north-west-zone-7/"
 		},
 		"id": "ID_00007"
 	}]
