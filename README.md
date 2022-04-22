@@ -1,2 +1,2 @@
 # smk-bc-games
-An SMK app displaying the BC Summer and BC Winter Games Zones.
+An SMK app displaying the BC Winter and BC Summer Games Zones.
